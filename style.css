@@ -220,11 +220,16 @@ color: #504f4f;
   font-family: "GT Eesti Text Medium", "Source Sans Pro", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
+.subscribe-form {
+  display: flex;
+  justify-content: space-between;
+}
+
 .subscribe-form input {
   margin-right: 5px;
   border: none;
   border-radius: 0;
-  flex-shrink: 100;
+
 }
 
 .subscribe-form input {
@@ -236,6 +241,21 @@ color: #504f4f;
   color: #55595c;
   background-color: #fff;
   background-image: none;
+}
+
+.subscribe-button button {
+  color: #fff;
+  background-color: #60C0F0;
+  border-color: #60C0F0;
+  border: none;
+  font-family: "GT Eesti Text Medium", "Source Sans Pro", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 1.15rem;
+  padding: .375rem .75rem;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: .25rem;
 }
 
 .t-article-list-container {
